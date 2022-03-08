@@ -770,9 +770,9 @@ img {
   text-decoration: underline;
 }
 
-.flex-container-explore-content-for-kids-short-text a,
-.flex-container-explore-content-for-teacher-short-text a,
-.flex-container-explore-content-for-researchers-short-text a {
+.flex-container-explore-content-for-kids-short-text,
+.flex-container-explore-content-for-teacher-short-text,
+.flex-container-explore-content-for-researchers-short-text {
   color: #2d3059;
   text-decoration: none;
   font-weight: bold;
