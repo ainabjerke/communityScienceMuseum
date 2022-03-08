@@ -23,7 +23,7 @@ body {
 .cta_btn,
 .cta_btn_for_teachers,
 .cta_btn_for_book_a_guided_tour {
-  background-color: #e30a76;
+  background-color: #ffcf01;
   padding: 17px 100px;
   display: inline-block;
   font-size: 1em;
@@ -38,7 +38,7 @@ body {
 .cta_btn_for_teachers a,
 .cta_btn_for_book_a_guided_tour a {
   text-decoration: none;
-  color: #ffffff;
+  color: #1b1464;
 }
 
 .cta_btn:hover,
@@ -142,7 +142,7 @@ body {
 /*********** cta btn home page visit us additional information *******/
 
 .cta-additional-information {
-  background-color: #e30a76;
+  background-color: #ffcf01;
   text-align: center;
   padding: 14px;
   margin-top: 0px;
@@ -155,7 +155,7 @@ body {
 }
 
 .cta-additional-information a {
-  color: #ffffff;
+  color: #1b1464;
   text-decoration: none;
 }
 
@@ -178,7 +178,7 @@ body {
   padding: 14px;
   margin-top: 28px;
   font-size: 26px;
-  background-color: #e30a76;
+  background-color: #ffcf01;
   margin-bottom: 27px;
 }
 
@@ -187,7 +187,7 @@ body {
 }
 
 .cta-join-holidayclub a {
-  color: #f1f1f1;
+  color: #1b1464;
   text-decoration: none;
 }
 
