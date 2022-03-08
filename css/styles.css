@@ -1427,8 +1427,8 @@ label {
 }
 
 .btn {
-  background-color: #53d3e2;
-  color: grey;
+  background-color: #ffcf01;
+  color: #1b1464;
   padding: 12px;
   margin: 10px 0;
   border: none;
@@ -1439,9 +1439,7 @@ label {
 }
 
 .btn:hover {
-  background-color: #fff;
-  border-color: #53d3e2;
-  border-style: solid;
+  filter: brightness(130%);
 }
 
 /******************* contact us page responsive tablet style *************************/
