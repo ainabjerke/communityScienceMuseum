@@ -27,7 +27,7 @@ body {
   padding: 17px 100px;
   display: inline-block;
   font-size: 1em;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
   text-indent: 1px;
@@ -38,7 +38,7 @@ body {
 .cta_btn_for_teachers a,
 .cta_btn_for_book_a_guided_tour a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 
 .cta_btn:hover,
