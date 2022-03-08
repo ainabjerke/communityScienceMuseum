@@ -199,7 +199,7 @@ body {
   text-align: center;
   padding: 14px;
   margin-top: 28px;
-  background-color: #e30a76;
+  background-color: #ffcf01;
   margin-bottom: 27px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -214,7 +214,7 @@ body {
 .cta-btn-for-contact-collection-department a,
 .cta-btn-for-get-involved a,
 .cta-btn-for-get-involved-internship-csm a {
-  color: #ffffff;
+  color: #1b1464;
   text-decoration: none;
   font-size: 17px;
 }
