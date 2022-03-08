@@ -1227,7 +1227,7 @@ img {
 .flex-item-left-visiting-of-professor-of-aeronautics,
 .flex-item-left-night-in-the-museum,
 .flex-item-left-energetica-exhibition-on-loan {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   padding: 10px;
   margin: 0px 0px 4px 0px;
   display: inline-block;
@@ -1239,7 +1239,7 @@ img {
   background-color: #f1f1f1;
   padding: 10px;
   flex: 50%;
-  color: #707070;
+  color: #4d4d4d;
   text-align: left;
   margin: 0px 0px 4px 4px;
 }
@@ -1257,7 +1257,7 @@ img {
 .flex-item-left-energetica-exhibition-on-loan h2 {
   position: relative;
   font-size: 20.4px;
-  color: #f1f1f1;
+  color: #ffffff;
   margin: 0px 235px -39px 0px;
 }
 
@@ -1281,7 +1281,7 @@ img {
 
 .flex-item-left-energetica-exhibition-on-loan h2 {
   padding: 0px 31px 2px 1px;
-  background: #3ac995;
+  background: #296402;
   margin-left: 0px;
   margin-right: 205px;
   padding-left: 30px;
