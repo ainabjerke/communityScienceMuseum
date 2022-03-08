@@ -1919,7 +1919,7 @@ img {
 .flex-item-left-exhibition-spaces-biology-and-medicine,
 .flex-item-left-exhibition-spaces-robitics-and-AI,
 .flex-item-left-exhibition-spaces-ecology {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   padding: 17px;
   margin: 0px 0px 4px 0px;
   display: inline-block;
@@ -1930,10 +1930,10 @@ img {
 .flex-item-right-exhibition-spaces-biology-and-medicine,
 .flex-item-right-exhibition-spaces-robitics-and-AI,
 .flex-item-right-exhibition-spaces-ecology {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   padding: 10px;
   flex: 50%;
-  color: #707070;
+  color: #4d4d4d;
   text-align: left;
   margin: 0px 0px 4px 3px;
 }
@@ -1956,7 +1956,7 @@ img {
 .flex-item-left-exhibition-spaces-ecology h2 {
   position: relative;
   font-size: 18px;
-  color: #f1f1f1;
+  color: #ffffff;
   margin: 0px 123px -39px 0px;
 }
 
@@ -1977,12 +1977,12 @@ img {
 
 .flex-item-left-exhibition-spaces-robitics-and-AI h2 {
   padding: 4px 0px 8px 36px;
-  background: #00b3d3;
+  background: #047a98;
 }
 
 .flex-item-left-exhibition-spaces-ecology h2 {
   padding: 4px 0px 8px 61px;
-  background: #3ac995;
+  background: #296402;
 }
 
 /************************exhibition spaces page responsive tablet style *************************/
