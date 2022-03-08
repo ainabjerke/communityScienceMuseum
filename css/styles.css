@@ -1467,6 +1467,7 @@ img {
 
 input[type="text"],
 input[type="email"],
+input[type="emailFooter"],
 input[type="emailAdress"],
 select,
 textarea,
