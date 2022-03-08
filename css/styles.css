@@ -27,25 +27,27 @@ body {
   padding: 17px 100px;
   display: inline-block;
   font-size: 1em;
-  color: #ffffff;
+  color: #1b1464;
   text-transform: uppercase;
   font-weight: bold;
   text-indent: 1px;
+  text-decoration: none;
 }
 
-.cta-btn-read-more a,
+/* .cta-btn-read-more a,
 .cta_btn a,
 .cta_btn_for_teachers a,
 .cta_btn_for_book_a_guided_tour a {
   text-decoration: none;
   color: #1b1464;
-}
+} */
 
 .cta_btn:hover,
 .cta_btn_for_teachers:hover,
 .cta_btn_for_book_a_guided_tour:hover,
 .cta-btn-read-more:hover {
   filter: brightness(115%);
+  text-decoration: underline;
 }
 
 /******* cta button homepage special events ******/
@@ -66,11 +68,12 @@ body {
 .cta-btn-special-event-and-news-evolution:hover,
 .cta-btn-special-event-and-news-ecology:hover {
   filter: brightness(115%);
+  text-decoration: underline;
 }
 
-.cta-btn-special-event-and-news-cosmology a,
-.cta-btn-special-event-and-news-evolution a,
-.cta-btn-special-event-and-news-ecology a {
+.cta-btn-special-event-and-news-cosmology,
+.cta-btn-special-event-and-news-evolution,
+.cta-btn-special-event-and-news-ecology {
   color: #ffffff;
   text-decoration: none;
 }
@@ -108,13 +111,14 @@ body {
 .cta-robotics-and-ai:hover,
 .cta-ecology:hover {
   filter: brightness(115%);
+  text-decoration: underline;
 }
 
-.cta-cosmology a,
-.cta-evolution a,
-.cta-biology-and-medicine a,
-.cta-robotics-and-ai a,
-.cta-ecology a {
+.cta-cosmology,
+.cta-evolution,
+.cta-biology-and-medicine,
+.cta-robotics-and-ai,
+.cta-ecology {
   color: #ffffff;
   text-decoration: none;
 }
@@ -141,46 +145,70 @@ body {
 
 /*********** cta btn home page visit us additional information *******/
 
-.cta-additional-information {
-  background-color: #ffcf01;
+.cta-additional-information,
+.cta-join-holidayclub {
+  /* background-color: #ffcf01;
+  text-align: center;
+   padding: 14px;
+  margin-top: 0px;
+  margin-top: 28px;
+  font-size: 26px; */
+  /* background-color: #ffcf01;
   text-align: center;
   padding: 14px;
   margin-top: 0px;
   margin-top: 28px;
+  font-size: 26px; */
+  /* width: 100%;
+  padding: 29px;
+  margin-top: 10px;
+  margin-left: 1px;
+  font-size: 1.5em; */
+  background-color: #ffcf01;
+  color: #1b1464;
+  display: inline-block;
+  margin-top: 22px;
   font-size: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 14px;
+  text-align: center;
+  width: 100%;
 }
 
 .cta-additional-information:hover {
   filter: brightness(110%);
+  text-decoration: underline;
 }
 
-.cta-additional-information a {
+/* .cta-additional-information {
   color: #1b1464;
   text-decoration: none;
-}
+} */
 
 /************* cta home page get involved style **********/
 
-.flex-container-get-involved a {
+.flex-container-get-involved {
   text-decoration: none;
   color: grey;
 }
 
-.flex-container-get-involved a:hover {
+.flex-container-get-involved:hover {
   text-decoration: underline;
   color: #4c4c8b;
 }
 
 /****************** cta holidayclub *****************/
 
-.cta-join-holidayclub {
+/* .cta-join-holidayclub a {
   text-align: center;
   padding: 14px;
   margin-top: 28px;
   font-size: 26px;
   background-color: #ffcf01;
   margin-bottom: 27px;
-}
+} */
 
 .cta-join-holidayclub:hover {
   filter: brightness(110%);
@@ -196,13 +224,17 @@ body {
 .cta-btn-for-contact-collection-department,
 .cta-btn-for-get-involved,
 .cta-btn-for-get-involved-internship-csm {
-  text-align: center;
-  padding: 14px;
-  margin-top: 28px;
   background-color: #ffcf01;
-  margin-bottom: 27px;
+  /* margin-bottom: 27px;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 1px; */
+  width: 100%;
+  display: inline-block;
+  padding: 1em;
+  font-size: 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  color: #1b1464;
 }
 
 .cta-btn-for-contact-collection-department:hover,
@@ -346,7 +378,7 @@ body {
   .logo img {
     width: 19em;
     height: 5em;
-    margin: 0px 0px -85px -5px;
+    margin: 0px 0px -85px 4px;
     position: relative;
     z-index: 1;
   }
@@ -398,6 +430,11 @@ body {
   .dropdown-content a {
     padding: 23px 16px;
   }
+
+  .cta-additional-information,
+  .cta-join-holidayclub {
+    width: 97.5%;
+  }
 }
 
 /**************************************************/
@@ -407,6 +444,10 @@ body {
 @media screen and (max-width: 600px) {
   .logo img {
     margin-left: 0px;
+  }
+  .cta-additional-information,
+  .cta-join-holidayclub {
+    width: 96.9%;
   }
 }
 
@@ -689,7 +730,7 @@ img {
   padding: 5px 0px;
   width: 100%;
 }
-
+/* 
 .flex-container-get-involved > div {
   background-color: #fff;
   text-align: center;
@@ -697,10 +738,36 @@ img {
   padding: 17px 76px 16px 116px;
   margin-left: 0px;
   margin-right: 0px;
-}
+} */
+
+/* .flex-container-get-involved a {
+  background-color: #fff;
+  text-align: center;
+  font-size: 27px;
+  padding: 17px 76px 16px 116px;
+  margin-left: 0px;
+  margin-right: 0px;
+} */
 
 .flex-container-get-involved a {
+  background-color: #ffffff;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: inline-block;
+  margin-top: 22px;
+  font-size: 26px;
+  text-transform: uppercase;
   text-decoration: none;
+  cursor: pointer;
+  padding: 17px;
+  width: 100%;
+  padding-left: 84px;
+  padding-right: 84px;
+}
+
+.flex-container-get-involved a:hover {
+  text-decoration: underline;
 }
 
 .flex-container-explore-content-for-kids-short-text a,
@@ -725,10 +792,6 @@ img {
 }
 
 /******************** homepage aboout csm section style ********************/
-
-* {
-  box-sizing: border-box;
-}
 
 .container-info-csm {
   display: flex;
@@ -885,9 +948,9 @@ img {
     text-align: center;
   }
 
-  .flex-container-get-involved > div {
+  .flex-container-get-involved a {
     margin-left: 9px;
-    margin-right: 9px;
+    width: 97.5%;
     margin-top: 5px;
     margin-bottom: 23px;
   }
@@ -993,16 +1056,12 @@ img {
     padding: 27px;
   }
 
-  .flex-container-get-involved > div {
-    padding: 17px 76px 16px 80px;
+  .flex-container-get-involved a {
+    width: 97.2%;
   }
 }
 
 /*********************************** global footer style ****************************************/
-
-* {
-  box-sizing: border-box;
-}
 
 .container-footer-info-csm {
   display: flex;
@@ -1023,7 +1082,7 @@ img {
   text-decoration: none;
   font-size: 18px;
   line-height: 64px;
-  padding: 36px;
+  padding: 15px;
 }
 
 .flex-item-left-container-footer-info-csm-link-style a:hover,
@@ -1041,7 +1100,7 @@ img {
   margin: 0px 0px 4px 3px;
 }
 
-.flex-item-right-container-footer-link-option {
+.flex-item-right-container-footer-link-option ul {
   column-count: 3;
   text-decoration: none;
   list-style-type: none;
@@ -1057,6 +1116,10 @@ img {
   padding: 2px;
 }
 
+/* .flex-item-right-container-footer-link-option-style ul {
+  list-style-type: none;
+} */
+
 /************ footer news letter style *********/
 
 .flex-item-right-container-footer-museum-newsletter {
@@ -1064,7 +1127,7 @@ img {
 }
 
 .input-container-footer-csm-newsletter {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   display: inline-block;
   vertical-align: top;
   width: 500px;
@@ -1202,12 +1265,13 @@ img {
   .flex-item-left-container-footer-info-csm-image-style img {
     max-width: 325px;
   }
+
+  .flex-item-right-container-footer-link-option ul {
+    column-count: 1;
+  }
 }
 
 /******************************** Special event and exhibition news page style ************************/
-* {
-  box-sizing: border-box;
-}
 
 .flex-container-visiting-of-professor-of-aeronautics,
 .flex-container-night-in-the-museum,
@@ -1442,6 +1506,25 @@ label {
   filter: brightness(130%);
 }
 
+/*Contact page style*/
+
+.form_error {
+  display: none;
+  color: red;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.message {
+  background: green;
+  padding: 1rem;
+  color: white;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  font-size: 25px;
+  text-align: center;
+}
+
 /******************* contact us page responsive tablet style *************************/
 /*************************************************************************************/
 
@@ -1470,9 +1553,6 @@ label {
 /*************************************** explore for kids page style **********************************/
 
 /*****************explore for kids start info section *********************/
-* {
-  box-sizing: border-box;
-}
 
 .flex-container-explore-for-kids-activity-intro {
   display: flex;
@@ -1727,9 +1807,6 @@ img {
 }
 
 /******************************** get involved page style *****************************/
-* {
-  box-sizing: border-box;
-}
 
 .flex-container-get-involved-support,
 .flex-container-get-involved-volunteer,
@@ -1883,9 +1960,6 @@ img {
 }
 
 /******************************** exhibition spaces page style *****************************/
-* {
-  box-sizing: border-box;
-}
 
 .flex-container-exhibition-spaces-cosmology,
 .flex-container-exhibition-spaces-evolution,
@@ -2140,9 +2214,6 @@ img {
 }
 
 /******************************** visist us page style *********************************/
-* {
-  box-sizing: border-box;
-}
 
 .flex-container-guided-tours,
 .flex-container-accessibility,
@@ -2300,10 +2371,6 @@ img {
 
 /******************************** explore for teacher page style **********************************/
 
-* {
-  box-sizing: border-box;
-}
-
 .flex-container-for-teachers,
 .flex-container-student-visit {
   display: flex;
@@ -2434,10 +2501,6 @@ img {
 }
 
 /******************************** explore for researcher page style****************************/
-
-* {
-  box-sizing: border-box;
-}
 
 .flex-container-for-researchers {
   display: flex;
