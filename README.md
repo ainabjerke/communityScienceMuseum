@@ -11,7 +11,6 @@ To create an webpage for an interactive science museum called the Community Scie
 - The site should take WCAG principles into consideration, especially regarding hierarchy, navigation, and color usage.
 - The site should be responsive, attractive, and easy to use on a variety of devices.
 - The site should show consideration for content strategy and SEO (consider your use of meta tags and alt text).
-- The GitHub repo for the project should be set to private. You do not need to submit this with your project.
 
 # Updates done after delivery
 - JavaScript is implemented on the contact form, showing an error message if the value in the textboxes does not meet the   requirements
