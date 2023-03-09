@@ -1,4 +1,4 @@
-# Community science museum is an website featuring museum information for middle school children (7-15) fammilies with children and youngsters without pandering 
+# Community science museum is a website featuring museum information  
 Semester Project 1
 
 ![image](https://i.ibb.co/F4V77Dp/community-science-museum.jpg)
@@ -15,7 +15,9 @@ Semester Project 1
 
 ## Description
 
-This project was a larger project i built during my first year of studies. It is an science museum website.
+This project was a larger project I built during my first year of studies. It is a science museum website and the core target audience is middle school children (7-15), families with children and youngsters without pandering.
+
+
 
 Some features:
 - Responsive layout
@@ -39,7 +41,7 @@ Some features:
 
 URL: https://peaceful-ramanujan-e3f357.netlify.app/index.html
 
-You can now play around on the website. Viewing blog posts and searching for a specific posts. 
+You can now play around on the website. Viewing information about the museum, view new special event section, a seperate information page for kids, teachers and reserchers. Exhibition page, page with more information before you visit the museum, book a guided tour and a support the museum site.
 
 
 ### How to start the project locally
